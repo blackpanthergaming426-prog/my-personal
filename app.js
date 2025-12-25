@@ -49,8 +49,7 @@ let boxenabled = ()=>{
          box.innerText="";
     }
 }
-let playerO=prompt("Lolo apna namm Bata");
-alert(" AGR O JETEGA TOH TERA NAME AYAGA WARNA TERA ABU KA NAME AYGA")
+let playerO=prompt("enter your name");
 let playerX="Waqar"
 const showwinner=(winner)=>{
 let winnerName =winner==="O" ? playerO:playerX;
@@ -74,4 +73,5 @@ const checkwinner = () => {
         }
     }
     newgame.addEventListener('click', resetgame);
+
     restbtn.addEventListener( 'click',resetgame);
